@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+body a {
+  color: white;
+  text-decoration: none;
+}
+body header {
+  background-image: url(../../media/images/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg);
+  background-size: cover;
+  background-position-y: 20%;
+  background-repeat: no-repeat;
+  height: 930px;
+}
+body header #restaurant_nav {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+body header #restaurant_nav #top_bar {
+  background-color: #1a1a1a;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  height: 31px;
+  display: flex;
+  padding-inline: 10px;
+}
+body header #restaurant_nav #top_bar #languages,
+body header #restaurant_nav #top_bar #informations {
+  display: flex;
+  justify-items: flex-start;
+  align-self: center;
+}
+body header #restaurant_nav #top_bar #languages {
+  display: block;
+  position: relative;
+  top: 15px;
+}
+body header #restaurant_nav #top_bar #informations {
+  margin-left: 53%;
+  justify-content: space-between;
+}
+body header #restaurant_nav #top_bar #informations .infos_contact {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+body header #restaurant_nav #top_bar #informations .infos_contact i {
+  margin-right: 5px;
+}
+body header #restaurant_nav #top_bar #informations .infos_contact :nth-child(2) {
+  padding-right: 10px;
+}
+body header #restaurant_nav #top_bar #social_media a {
+  padding: 5px;
+}
+body header #restaurant_nav #bottom_bar {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0);
+}
+body header #restaurant_nav #bottom_bar #logo {
+  display: flex;
+  justify-content: end;
+  width: 30%;
+}
+body header #restaurant_nav #bottom_bar #logo img {
+  width: 60px;
+  height: 60px;
+}
+body header #restaurant_nav #bottom_bar #bar_nav {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 40%;
+}
+body header #restaurant_nav #bottom_bar #bar_nav li {
+  border: none;
+  list-style: none;
+  padding-inline: 2%;
+}
+body header #restaurant_nav #bottom_bar #bar_nav li a {
+  font-family: "Playfair Display", serif;
+  font-size: 17px;
+  padding: 5px;
+}
+body header #header_main_content {
+  text-align: center;
+  color: white;
+  padding: 9.5%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+body header #header_main_content h1 {
+  font-size: 75px;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  margin-top: 12%;
+}
+body header #header_main_content p {
+  font-weight: 500;
+  margin-top: -2.6%;
+  line-height: 30px;
+}
+body header #header_main_content a {
+  background-color: #c39d63;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  padding-inline: 40px, 20px;
+  width: 159px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body header #header_main_content a i {
+  margin-right: 10px;
+}
+body main {
+  width: 100%;
+  height: 100em;
+}
+body main .article_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3% 14.5%;
+}
+body main .article_main section {
+  width: 47%;
+}
+body main .article_main section h2 {
+  font-size: 48px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+body main .article_main section p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+}
+body main .article_main section p br {
+  display: block;
+  content: "";
+  margin-top: 18px;
+}
+body main .article_main section button {
+  background-color: #c39d63;
+  color: white;
+  border: none;
+  padding-inline: 10px;
+  width: 90px;
+  height: 35px;
+  font-weight: 600;
+  font-size: 16px;
+}
+body main .article_main img {
+  margin-top: 40px;
+  width: 47%;
+}
+body main .difer {
+  flex-direction: row-reverse;
+  background-color: #f4f4f4;
+  margin-top: -150px;
+}
+body main .difer h2,
+body main .difer h3,
+body main .difer p {
+  text-align: center;
+}
+body main .difer section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body main .difer section h3 {
+  color: #bfbfbf;
+  font-size: 15px;
+  margin-block: 60px -20px;
+  font-weight: 800;
+}
+body main .difer section button {
+  background-color: transparent;
+  color: #1a1a1a;
+  font-weight: 500;
+  width: 140px;
+}
+body main .difer section button i {
+  margin-left: 10px;
+}
+body main .difer img {
+  margin-top: -150px;
+}/*# sourceMappingURL=style.css.map */
